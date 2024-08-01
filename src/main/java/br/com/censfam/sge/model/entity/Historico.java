@@ -35,4 +35,61 @@ public class Historico implements Serializable {
     @Column(nullable = false, length = 10)
     private String ser5_his;
 
+    @Column
+    private Integer ald5_his;
+
+    @Column
+    private Integer fts5_his;
+
+    @Column(nullable = false,length = 10)
+    private String ser6_his;
+
+    @Column
+    private Integer ald6_his;
+
+    @Column
+    private Integer fts6_his;
+
+    @Column(nullable = false,length = 10)
+    private String ser7_his;
+
+    @Column
+    private Integer ald7_his;
+
+    @Column
+    private Integer fts7_his;
+
+    @Column(nullable = false,length = 10)
+    private String ser8_his;
+
+    @Column
+    private Integer ald8_his;
+
+    @Column
+    private Integer fts8_his;
+
+    @Column(nullable = false,length = 10)
+    private String ser9_his;
+
+    @Column
+    private Integer ald9_his;
+
+    @Column
+    private Integer fts9_his;
+
+    @Column(nullable = false,length = 10)
+    private String rstd_his;
+
+    @Column
+    private Integer dles_his;
+
+    @Column
+    private Integer qfts_his;
+
+    @Column
+    private Integer chos_his;
+
+    @Column(nullable = false,length = 50)
+    private String usu_fun;
+
 }
